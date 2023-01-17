@@ -17,6 +17,10 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   )
+
+  function newFunction(): React.ReactNode {
+    return <Contact />;
+  }
 }
 
 export default App
